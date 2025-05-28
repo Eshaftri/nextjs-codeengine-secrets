@@ -74,19 +74,6 @@ ibmcloud resource service-instances --service-name secrets-manager
 #### 3. Where Will You Use This?
 You’ll bind this Trusted Profile to your Code Engine app for secure access to Secrets Manager.
 
----
-
-### 🧰 Troubleshooting
-
-#### 🔸 `Not Authorized` Errors?
-- Confirm `SecretsReader` role is assigned.
-- Ensure correct Secrets Manager instance is used.
-
-#### 🔸 CLI Not Working?
-```bash
-ibmcloud login
-ibmcloud target -r <your-region>
-```
 
 ---
 
