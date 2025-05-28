@@ -98,12 +98,12 @@ Before running or deploying the application, configure your environment variable
 # Required for production deployment on Code Engine
 SM_TRUSTED_PROFILE_ID=sm-trusted-profile-id
 SM_SERVICE_URL=https://<GUID>.private.<REGION>.secrets-manager.appdomain.cloud
-SM_TRUSTED_PROFILE_ID=sm-secret-id
+NEXT_PUBLIC_SECRET_ID=sm-secret-id
 
 # Required only for local development (using API Key)
 CLOUD_API_KEY=cloud-api-key
 SM_SERVICE_URL=https://<GUID>.<REGION>.secrets-manager.appdomain.cloud
-SM_TRUSTED_PROFILE_ID=sm-secret-id
+NEXT_PUBLIC_SECRET_ID=sm-secret-id
 ```
 
 🔐 **Notes:**
