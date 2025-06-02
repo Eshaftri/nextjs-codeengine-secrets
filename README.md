@@ -1,6 +1,6 @@
 # Next.js App Router + IBM Cloud Secrets Manager
 
-This project uses Next.js App Router and securely accesses IBM Cloud Secrets Manager using Trusted Profiles. Ready for IBM Cloud Code Engine.
+This project demonstrates how to securely access IBM Cloud Secrets Manager in a Next.js App Router application, using Trusted Profiles for production and API keys for local development. The app is designed for seamless deployment to IBM Cloud Code Engine.
 
 ## Structure
 

@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import secretsManager from '../../../lib/secretsManager';
+import {secretsManager} from '../../../lib/secretsManager';
 
 export async function GET(req) {
   const { searchParams } = new URL(req.url);
