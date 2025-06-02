@@ -69,17 +69,6 @@ ibmcloud resource service-instances --service-name secrets-manager
 
 ---
 
-## 🔐 Why Trusted Profiles?
-
-| Capability               | API Key              | Trusted Profile             |
-|--------------------------|----------------------|-----------------------------|
-| Local credentials needed | ✅ Yes               | ❌ No                       |
-| Manual rotation needed   | ✅ Yes               | ❌ No                       |
-| Code Engine support      | ⚠️ Manual            | ✅ Native (auto-binding)    |
-| Least privilege control  | ❌ Manual            | ✅ Granular IAM policies    |
-
----
-
 ## 📦 Install IBM SDK
 
 ```bash
